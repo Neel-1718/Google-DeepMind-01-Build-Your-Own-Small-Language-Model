@@ -1,0 +1,13 @@
+# Requirements for reproducing the Colab lab
+
+# This file lists the main packages used in the Colab lab. Pin versions as needed for reproducibility.
+ai-foundations @ git+https://github.com/google-deepmind/ai-foundations.git@main
+jax[cuda12]==0.7.2
+tensorflow
+pandas
+requests
+keras
+
+# Optional (for plotting and visualization)
+plotly
+
